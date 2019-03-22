@@ -6,7 +6,7 @@ RSpec.describe User, type: :model do
   end
 
   it 'has a name field' do
-    expect(User.new).to respond_to(:name)
+    expect(User.new).to respond_to(:username)
   end
 
   it 'has a password confirmation field' do
